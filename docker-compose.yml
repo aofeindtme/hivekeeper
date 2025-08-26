@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  hivekeeper:
+    image: hivekeeper-v2:latest
+    build: .
+    ports:
+      - "5050:5000"
+    volumes:
+      - /volume2/docker/hivekeeper-v2/data:/app/data
+      - /volume2/docker/hivekeeper-v2/config:/app/config
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+    restart: always
+    command: flask run --host=0.0.0.0 --port=5000
