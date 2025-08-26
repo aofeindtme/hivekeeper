@@ -1,0 +1,145 @@
+de:
+de:
+  +: '[+]'
+  '-': '[-]'
+  '0': '[0]'
+  '1': '[1]'
+  '2': '[2]'
+  '2022': '[2022]'
+  '2023': '[2023]'
+  '2024': '[2024]'
+  '2025': '[2025]'
+  '3': '[3]'
+  '4': '[4]'
+  Dadant US: '[Dadant US]'
+  Frankenbeute: '[Frankenbeute]'
+  Langstroth: '[Langstroth]'
+  active: '[active]'
+  add_colony_title: Kolonie hinzufügen
+  behavior: Verhalten
+  breed: Zuchtlinie
+  brood_chambers: Bruträume
+  brood_closed: Verdeckelte Brut
+  brood_compact: Kompakte Brut
+  brood_frames: Brutwaben
+  brood_open: Offene Brut
+  comb_frames: Wabenrahmen
+  current_colony_id: Aktuelle Kolonie-ID
+  date: Datum
+  dead: verendet
+  drone_brood: Drohnenbrut
+  eggs_present: Eier vorhanden
+  emergency: Notzellen
+  hive_id: Beute-ID
+  honey_open: Offener Honig
+  honey_sealed: Verdeckelter Honig
+  honey_total: Gesamthonig
+  login: Anmelden
+  logout: Abmelden
+  name: Name
+  'no': nein
+  none: keine
+  notes: Notizen
+  origin: Herkunft
+  password: Passwort
+  pollen: Pollen
+  pollen_frames: Pollenwaben
+  position: Standort
+  queen_cell_count: Anzahl Weiselzellen
+  queen_cells: Weiselzellen
+  queen_color: Zeichenfarbe
+  queen_marked: Königin gezeichnet
+  queen_number: Königinnummer
+  queen_present: Königin vorhanden
+  queen_year: Jahr der Königin
+  requeened: umgeweiselt
+  save: Speichern
+  split: Ableger
+  status: Status
+  strength: Stärke
+  submit: Absenden
+  summary: Zusammenfassung
+  swarm: Schwarmzellen
+  total_frames: Gesamträhmchen
+  trait_frame_sit: Wabensitz
+  trait_gentleness: Sanftmut
+  trait_hygiene: Hygieneverhalten
+  trait_spring: Frühjahrsentwicklung
+  trait_strength: Volksstärke
+  trait_swarming: Schwarmtrieb
+  trait_winter: Überwinterung
+  type: Beutentyp
+  username: Benutzername
+  'yes': ja
+en:
+  +: +
+  '-': '-'
+  '0': '0'
+  '1': '1'
+  '2': '2'
+  '2022': '2022'
+  '2023': '2023'
+  '2024': '2024'
+  '2025': '2025'
+  '3': '3'
+  '4': '4'
+  Dadant US: Dadant US
+  Frankenbeute: Frankenbeute
+  Langstroth: Langstroth
+  active: active
+  add_colony_title: Add Colony
+  behavior: Behavior
+  breed: Breed
+  brood_chambers: Brood chambers
+  brood_closed: Brood closed
+  brood_compact: Brood compact
+  brood_frames: Brood frames
+  brood_open: Brood open
+  comb_frames: Comb frames
+  current_colony_id: Current colony id
+  date: Date
+  dead: dead
+  drone_brood: Drone brood
+  eggs_present: Eggs present
+  emergency: emergency
+  hive_id: Hive id
+  honey_open: Honey open
+  honey_sealed: Honey sealed
+  honey_total: Honey total
+  login: Login
+  logout: Logout
+  name: Name
+  'no': 'no'
+  none: none
+  notes: Notes
+  origin: Origin
+  password: Password
+  pollen: Pollen
+  pollen_frames: Pollen frames
+  position: Position
+  queen_cell_count: Queen cell count
+  queen_cells: Queen cells
+  queen_color: Queen color
+  queen_marked: Queen marked
+  queen_number: Queen number
+  queen_present: Queen present
+  queen_year: Queen year
+  requeened: requeened
+  save: Save
+  split: split
+  status: Status
+  strength: Strength
+  submit: Submit
+  summary: Summary
+  swarm: swarm
+  total_frames: Total frames
+  trait_frame_sit: Trait frame sit
+  trait_gentleness: Trait gentleness
+  trait_hygiene: Trait hygiene
+  trait_spring: Trait spring
+  trait_strength: Trait strength
+  trait_swarming: Trait swarming
+  trait_winter: Trait winter
+  type: Type
+  username: Username
+  'yes': 'yes'
