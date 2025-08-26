@@ -1,0 +1,180 @@
+entities:
+- name: colonies
+  fields:
+  - name: name
+    type: text
+  - name: queen_year
+    type: dropdown
+    options:
+    - '2022'
+    - '2023'
+    - '2024'
+  - name: breed
+    type: text
+  - name: origin
+    type: text
+  - name: status
+    type: dropdown
+    options:
+    - active
+    - split
+    - requeened
+    - dead
+- name: hives
+  fields:
+  - name: name
+    type: text
+  - name: type
+    type: dropdown
+    options:
+    - Dadant US
+    - Frankenbeute
+    - Langstroth
+  - name: position
+    type: text
+  - name: current_colony_id
+    type: foreign_key
+    ref: colonies
+- name: inspections
+  fields:
+  - name: date
+    type: date
+  - name: hive_id
+    type: foreign_key
+    ref: hives
+  - name: queen_present
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: queen_marked
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: queen_color
+    type: text
+  - name: queen_number
+    type: number
+  - name: queen_year
+    type: select
+    options:
+    - '2022'
+    - '2023'
+    - '2024'
+    - '2025'
+  - name: queen_cells
+    type: select
+    options:
+    - none
+    - swarm
+    - emergency
+  - name: queen_cell_count
+    type: number
+  - name: eggs_present
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: brood_open
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: brood_closed
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: brood_compact
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: drone_brood
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: pollen
+    type: select
+    options:
+    - 'yes'
+    - 'no'
+  - name: behavior
+    type: number
+  - name: strength
+    type: number
+  - name: total_frames
+    type: number
+  - name: brood_chambers
+    type: number
+  - name: honey_total
+    type: number
+  - name: honey_open
+    type: number
+  - name: honey_sealed
+    type: number
+  - name: brood_frames
+    type: number
+  - name: pollen_frames
+    type: number
+  - name: comb_frames
+    type: number
+  - name: notes
+    type: textarea
+  - name: summary
+    type: select
+    options:
+    - +
+    - '0'
+    - '-'
+  - name: trait_gentleness
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_frame_sit
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_strength
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_swarming
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_hygiene
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_winter
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  - name: trait_spring
+    type: select
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
